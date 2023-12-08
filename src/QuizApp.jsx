@@ -1,4 +1,10 @@
 import React, { useState } from 'react';
+import node_img from './images/node_img.png';
+import option1 from './images/option1.jpeg';
+import option2 from './images/option2.jpeg';
+import option3 from './images/option3.jpeg';
+import option4 from './images/option4.jpeg'
+
 import './QuizApp.css';
 
 const QuizApp = () => {
@@ -37,7 +43,7 @@ const QuizApp = () => {
       <div>
         <p>Q2. Which programming language is commonly used for building dynamic web pages? </p>
         <ul>
-          <li onClick={() => handleAnswer(2, 'JavaScript')}>A)<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3ANode.js_logo.svg&psig=AOvVaw2uAIu7fHl2rZ9h16Rf5NiC&ust=1702041717386000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKiC9dK1_YIDFQAAAAAdAAAAABAD" alt="Option A" /></li>
+          <li onClick={() => handleAnswer(2, 'JavaScript')}>A)<img src={node_img} alt="Option A" /></li>
           {/* ... other options */}
           <li> B)  JavaScript</li>
           < li> C) Python</li>
@@ -57,11 +63,11 @@ const QuizApp = () => {
       <div>
         <p>Q3. Which is known as the “SRIDHARACHARYA” formula.</p>
         <ul>
-          <li onClick={() => handleAnswer(3, 'D')}>A)<img src="../images/node_img.png" alt="Option A" /> </li>
+          <li onClick={() => handleAnswer(3, 'D')}>A)<img src={option1} alt="Option A" /> </li>
           {/* ... other options */}
-          <li> B)<img src="images/node_img.png" alt="Option A" /></li>
-          < li> C) <img src="images/node_img.png" alt="Option A" /></li>
-          <li>  D) <img src="" alt="Option A" /></li>
+          <li> B)<img src={option2} alt="Option A" /></li>
+          < li> C) <img src={option3} alt="Option A" /></li>
+          <li>  D) <img src={option4} alt="Option A" /></li>
         </ul>
       </div>
       <div>
