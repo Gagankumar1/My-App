@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/My-App/static/css/main.cadbc38b.css",
-    "main.js": "/My-App/static/js/main.483b273d.js",
-    "static/js/787.9e9f4ffd.chunk.js": "/My-App/static/js/787.9e9f4ffd.chunk.js",
-    "index.html": "/My-App/index.html",
-    "main.cadbc38b.css.map": "/My-App/static/css/main.cadbc38b.css.map",
-    "main.483b273d.js.map": "/My-App/static/js/main.483b273d.js.map",
-    "787.9e9f4ffd.chunk.js.map": "/My-App/static/js/787.9e9f4ffd.chunk.js.map"
+    "main.css": "/xtend/static/css/main.cadbc38b.css",
+    "main.js": "/xtend/static/js/main.9ecbb6e4.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/xtend/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/option1.jpeg": "/xtend/static/media/option1.84a63ac1d3fe8a86e313.jpeg",
+    "static/media/option2.jpeg": "/xtend/static/media/option2.2da6f622b46b8ffffbc8.jpeg",
+    "static/media/option3.jpeg": "/xtend/static/media/option3.2408cfffcd23d54327ae.jpeg",
+    "index.html": "/xtend/index.html",
+    "main.cadbc38b.css.map": "/xtend/static/css/main.cadbc38b.css.map",
+    "main.9ecbb6e4.js.map": "/xtend/static/js/main.9ecbb6e4.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/xtend/static/js/787.9e9f4ffd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cadbc38b.css",
-    "static/js/main.483b273d.js"
+    "static/js/main.9ecbb6e4.js"
   ]
 }
